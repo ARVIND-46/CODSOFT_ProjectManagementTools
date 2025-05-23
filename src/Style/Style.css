@@ -1,0 +1,168 @@
+/* Landing.css */
+
+.landing-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.landing-container h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.landing-container button {
+  display: block;
+  margin: 0 auto 30px auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.landing-container button:hover {
+  background-color: #0056b3;
+}
+
+.landing-container h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.project-list {
+  list-style: none;
+  padding: 0;
+}
+
+.project-list li {
+  background-color: #e8f0fe;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  border-left: 5px solid #007bff;
+  border-radius: 6px;
+  font-weight: 500;
+}
+/* project-updation  */
+.project-updation {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+  justify-content: left;
+}
+
+.project-card {
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 16px;
+  width: 200px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+  margin: 0 0 8px;
+  color: #333;
+}
+
+.project-card p {
+  margin: 4px 0;
+  font-size: 14px;
+  font-family: 'Courier New', Courier, monospace;
+}
+/* landing - page */
+/* ProjectForm.css */
+
+.project-form-container {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 30px 35px;
+  background: #fefefe;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: all 0.3s ease;
+}
+
+.project-form-container h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 25px;
+  font-size: 26px;
+  letter-spacing: 1px;
+}
+
+.project-form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.project-form-container label {
+  font-weight: 600;
+  color: #34495e;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.project-form-container input[type="text"],
+.project-form-container input[type="date"],
+.project-form-container textarea {
+  padding: 12px 14px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.project-form-container input[type="text"]:focus,
+.project-form-container input[type="date"]:focus,
+.project-form-container textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.1);
+}
+
+.project-form-container textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+.project-form-container .task-list {
+  margin: 0;
+  padding-left: 20px;
+  color: #555;
+  font-size: 14px;
+}
+
+.project-form-container .task-list li {
+  margin-bottom: 6px;
+  list-style-type: disc;
+}
+
+.project-form-container button {
+  background-color:green  ;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: background-color 0.3s ease;
+}
+
+.project-form-container .add-task-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
